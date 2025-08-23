@@ -2,3 +2,24 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --bg-image: url(../images/cover-image-dark.png);
+  --base-font-size: 18px;
+  --base-font-family: "IBM Plex Mono", sans-serif;
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --accent-color: rgb(255 0 112);
+  --title-font-size: 116px;
+  --title-decor: rgb(255 0 112);
+  --rec-color: #FF0070;
+  --button-color: rgb(255 0 112);
+  --page-padding: 10px;
+
+
+/* font-weight: 700;
+font-style: Bold;
+leading-trim: NONE;
+line-height: 23.4px;
+letter-spacing: 0%; */
+
+}
