@@ -12,14 +12,12 @@
   --dark-purpure: #db00ff;
   --dark-base-black: #000028;
   --dark-accent-color: rgb(255 0 112);
-  --dark-pink: #FF8DCB;
+  --dark-pink: #ff8dcb;
   --dark-pink-text: #f1b2ce;
-
-
 
   --bg-image: url(../images/cover-image-dark.png);
   --page-padding: 10px;
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --decoration-gap: clamp(10px, 2.65vw, 20px);
   --base-font-size: 18px;
   --base-font-family: "IBM Plex Mono", sans-serif;
   --base-line-height: 23.4px;
@@ -36,28 +34,38 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-  --dark-purpure: #db00ff;
-  --dark-base-black: #000028;
-  --dark-accent-color: rgb(255 0 112);
-  --dark-pink: #FF8DCB;
-  --dark-pink-text: #f1b2ce;
+    --dark-purpure: #db00ff;
+    --dark-base-black: #000028;
+    --dark-accent-color: rgb(255 0 112);
+    --dark-pink: #ff8dcb;
+    --dark-pink-text: #f1b2ce;
 
-
-
-  --bg-image: url(../images/cover-image-dark.png);
-  --page-padding: 10px;
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
-  --base-font-size: 18px;
-  --base-font-family: "IBM Plex Mono", sans-serif;
-  --base-line-height: 23.4px;
-  --base-font-color: var(--dark-pink-text);
-  --accent-color: var(--dark-accent-color);
-  --title-font-size: 116px;
-  --title-decor: var(--dark-accent-color);
-  --title-color: var(--dark-purpure);
-  --list-item-title-color: var(--dark-base-black);
-  --rec-color: var(--dark-accent-color);
-  --button-color: var(--dark-accent-color);
-  --content__section-title-color: var(--dark-accent-color);
+    --bg-image: url(../images/cover-image-dark.png);
+    --page-padding: 10px;
+    --decoration-gap: clamp(10px, 2.65vw, 20px);
+    --base-font-size: 18px;
+    --base-font-family: "IBM Plex Mono", sans-serif;
+    --base-line-height: 23.4px;
+    --base-font-color: var(--dark-pink-text);
+    --accent-color: var(--dark-accent-color);
+    --title-font-size: 116px;
+    --title-decor: var(--dark-accent-color);
+    --title-color: var(--dark-purpure);
+    --list-item-title-color: var(--dark-base-black);
+    --rec-color: var(--dark-accent-color);
+    --button-color: var(--dark-accent-color);
+    --content__section-title-color: var(--dark-accent-color);
   }
+}
+
+.theme-dark .header__decorated-rec {
+  display: flex;
+}
+
+.theme-dark .header__decorated-rec::before {
+  display: flex;
+}
+
+.theme-dark .header__decorated-rec::after {
+  display: flex;
 }

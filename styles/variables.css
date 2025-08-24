@@ -7,14 +7,13 @@
   --dark-purpure: #db00ff;
   --dark-base-black: #000028;
   --dark-accent-color: rgb(255 0 112);
-  --dark-pink: #FF8DCB;
+  --dark-pink: #ff8dcb;
   --dark-pink-text: #f1b2ce;
-
-
 
   --bg-image: url(../images/cover-image-dark.png);
   --page-padding: 10px;
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --page-padding-responsive: clamp(10px, 2.65vw, 20px);
+  --decoration-gap: clamp(10px, 2.65vw, 20px);
   --base-font-size: 18px;
   --base-font-family: "IBM Plex Mono", sans-serif;
   --base-line-height: 23.4px;
@@ -27,5 +26,4 @@
   --rec-color: var(--dark-accent-color);
   --button-color: var(--dark-accent-color);
   --content__section-title-color: var(--dark-accent-color);
-
 }

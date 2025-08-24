@@ -10,10 +10,10 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --dark-purpure: #FFC2E6;
+  --dark-purpure: #ffc2e6;
   --dark-base-black: #353430;
-  --dark-accent-color: #FF8DCB;
-  --dark-pink: #353430;;
+  --dark-accent-color: #ff8dcb;
+  --dark-pink: #353430;
   --dark-pink-text: #353430;
 
   --bg-image: url(../images/cover-image-light.png);
@@ -23,10 +23,10 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --dark-purpure: #FFC2E6;
+    --dark-purpure: #ffc2e6;
     --dark-base-black: #353430;
-    --dark-accent-color: #FF8DCB;
-    --dark-pink: #353430;;
+    --dark-accent-color: #ff8dcb;
+    --dark-pink: #353430;
     --dark-pink-text: #353430;
 
     --bg-image: url(../images/cover-image-light.png);
@@ -35,14 +35,14 @@
   }
 }
 
-.theme-light .header__decorated-rec {
+.header__decorated-rec {
   display: none;
 }
 
-.theme-light .header__decorated-rec::before {
+.header__decorated-rec::before {
   display: none;
 }
 
-.theme-light .header__decorated-rec::after {
+.header__decorated-rec::after {
   display: none;
 }
