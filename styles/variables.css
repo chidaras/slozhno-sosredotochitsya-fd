@@ -7,13 +7,20 @@
   --bg-image: url(../images/cover-image-dark.png);
   --base-font-size: 18px;
   --base-font-family: "IBM Plex Mono", sans-serif;
+  --base-line-height: 23.4px;
+  --base-font-color: #f1b2ce;
   --decoration-gap: clamp(10px , 2.65vw , 20px);
   --accent-color: rgb(255 0 112);
   --title-font-size: 116px;
   --title-decor: rgb(255 0 112);
+  /* --title-color: #db00ff; */
+  /* --main-font-color: #f1b2ce; */
+  /* --content__section-title-color: rgb(255 0 112); */
+  --list-item-title-color: #000028;
   --rec-color: #FF0070;
   --button-color: rgb(255 0 112);
   --page-padding: 10px;
+  /* --content__section-title-color: rgb(255 0 112); */
 
 
 /* font-weight: 700;
