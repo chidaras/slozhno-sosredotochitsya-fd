@@ -15,7 +15,7 @@
   --page-padding-responsive: clamp(10px, 2.65vw, 20px);
   --decoration-gap: clamp(10px, 2.65vw, 20px);
   --base-font-size: 18px;
-  --base-font-family: "IBM Plex Mono", sans-serif;
+  --base-font-family: "IBM Plex Mono", monospace;
   --base-line-height: 23.4px;
   --base-font-color: var(--dark-pink-text);
   --accent-color: var(--dark-accent-color);

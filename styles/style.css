@@ -83,7 +83,7 @@
 .header__text {
   margin-inline-end: 0;
   margin-block-end: var(--decoration-gap);
-  color: #000028;
+  color: var(--dark-base-black);
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
