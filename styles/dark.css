@@ -14,6 +14,7 @@
   --dark-accent-color: rgb(255 0 112);
   --dark-pink: #ff8dcb;
   --dark-pink-text: #f1b2ce;
+  --page-bg-color: #000028;
 
   --bg-image: url(../images/cover-image-dark.png);
   --button-color: var(--dark-accent-color);
@@ -27,6 +28,7 @@
     --dark-accent-color: rgb(255 0 112);
     --dark-pink: #ff8dcb;
     --dark-pink-text: #f1b2ce;
+    --page-bg-color: #000028;
 
     --bg-image: url(../images/cover-image-dark.png);
     --button-color: var(--dark-accent-color);
