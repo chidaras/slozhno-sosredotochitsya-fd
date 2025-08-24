@@ -1,1 +1,1 @@
-https://github.com/chidaras/posmotri-v-okno-fd
+https://github.com/chidaras/slozhno-sosredotochitsya-fd
