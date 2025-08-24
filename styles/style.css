@@ -66,7 +66,7 @@
   font-weight: 700;
   font-style: Bold;
   line-height: 0.825;
-  color: var(--accent-color);
+  color: var(--title-color);
 }
 .header__text{
   background-color: var(--title-decor);
@@ -180,15 +180,7 @@
 }
 
 .content__section-title {
-  color: var(--content__section-title-color, rgb(255 0 112));
-  margin-block-end: 20px;
-  font-size: var(--base-font-size, 1.125rem);
-  line-height: var(--base-line-height);
-}
-
-
-.content__section-title{
-  color: var(--accent-color, rgb(255 0 112));
+  color: var(--content__section-title-color);
   margin-block-end: 20px;
   font-size: var(--base-font-size, 1.125rem);
   line-height: var(--base-line-height);

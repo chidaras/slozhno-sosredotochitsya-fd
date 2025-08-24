@@ -4,29 +4,28 @@
 */
 
 :root {
+  --dark-purpure: #db00ff;
+  --dark-base-black: #000028;
+  --dark-accent-color: rgb(255 0 112);
+  --dark-pink: #FF8DCB;
+  --dark-pink-text: #f1b2ce;
+
+
+
   --bg-image: url(../images/cover-image-dark.png);
+  --page-padding: 10px;
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
   --base-font-size: 18px;
   --base-font-family: "IBM Plex Mono", sans-serif;
   --base-line-height: 23.4px;
-  --base-font-color: #f1b2ce;
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
-  --accent-color: rgb(255 0 112);
+  --base-font-color: var(--dark-pink-text);
+  --accent-color: var(--dark-accent-color);
   --title-font-size: 116px;
-  --title-decor: rgb(255 0 112);
-  /* --title-color: #db00ff; */
-  /* --main-font-color: #f1b2ce; */
-  /* --content__section-title-color: rgb(255 0 112); */
-  --list-item-title-color: #000028;
-  --rec-color: #FF0070;
-  --button-color: rgb(255 0 112);
-  --page-padding: 10px;
-  /* --content__section-title-color: rgb(255 0 112); */
-
-
-/* font-weight: 700;
-font-style: Bold;
-leading-trim: NONE;
-line-height: 23.4px;
-letter-spacing: 0%; */
+  --title-decor: var(--dark-accent-color);
+  --title-color: var(--dark-purpure);
+  --list-item-title-color: var(--dark-base-black);
+  --rec-color: var(--dark-accent-color);
+  --button-color: var(--dark-accent-color);
+  --content__section-title-color: var(--dark-accent-color);
 
 }
