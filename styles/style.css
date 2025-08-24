@@ -293,6 +293,10 @@
     grid-template-columns: min-content 2fr;
   }
 
+  .content__section:nth-child(3) .content__section-list{
+     padding-right: 10px;
+  }
+
   .content__section-list {
     display: grid;
     grid-column: 2;
@@ -340,6 +344,9 @@
 }
 
 @media (min-width: 1024px) {
+  .content__section:nth-child(3) .content__section-list{
+     padding-right: initial;
+  }
   :root {
     --title-font-size: 157px;
   }
