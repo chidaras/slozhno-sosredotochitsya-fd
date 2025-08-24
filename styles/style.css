@@ -19,9 +19,9 @@
   align-items: center;
   height: 100vh;
   min-height: 668px;
+  padding-right: var(--page-padding);
   /* padding: 0 var(--page-padding); */
   padding-left: var(--page-padding);
-  padding-right: var(--page-padding);
   /* margin-bottom: 10px; */
 }
 
@@ -80,14 +80,14 @@
 }
 
 .header__text {
+  margin-inline-end: -10px;
+  margin-block-end: var(--decoration-gap);
   color: #000028;
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
   font-style: bold;
   background-color: var(--title-decor);
-  margin-block-end: var(--decoration-gap);
-  margin-inline-end: -10px;
 }
 
 .header__decorated-rec {
@@ -150,8 +150,6 @@
   inline-size: 25px;
 }
 
-
-
 .footer {
   /* для уголков */
   position: relative;
@@ -185,7 +183,7 @@
 }
 
 .content {
-  margin-block: 60px;
+  margin-block: 40px;
   padding: 0 var(--page-padding);
   color: var(--base-font-color);
   line-height: var(--base-line-height);
@@ -203,10 +201,16 @@
 }
 
 .content__section-list-item-title {
-  margin-block-end: 10px;
+  /* margin-block-end: 10px; */
+  margin-bottom: 10px;
   color: var(--list-item-title-color);
   font-size: var(--base-font-size, 1.125rem);
   line-height: var(--base-line-height);
+}
+
+.content__section-list {
+  display: grid;
+  gap: 20px;
 }
 
 .content__link {
@@ -314,18 +318,25 @@
     grid-column: 2/-1;
     grid-row: 3;
   }
+
+  .content {
+    margin-block: 60px;
+  }
 }
 
 @media (min-width: 1024px) {
-  :root{
+  :root {
     --title-font-size: 157px;
   }
-  .header{
+
+  .header {
     min-height: 768px;
   }
-  .footer{
+
+  .footer {
     min-height: 768px;
   }
+
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -348,7 +359,7 @@
     gap: 20px;
   }
 
-    /* .content__section:nth-child(even):not(.content__section-images) {
+  /* .content__section:nth-child(even):not(.content__section-images) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -358,7 +369,7 @@
     margin-top:20px
 
   } */
-  .content__section:not(:first-child){
-    margin-top:80px
+  .content__section:not(:first-child) {
+    margin-top: 80px;
   }
 }
