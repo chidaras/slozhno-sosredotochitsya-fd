@@ -23,7 +23,6 @@
   --base-line-height: 23.4px;
   --base-font-color: var(--dark-pink-text);
   --accent-color: var(--dark-accent-color);
-  --title-font-size: 116px;
   --title-decor: var(--dark-accent-color);
   --title-color: var(--dark-purpure);
   --list-item-title-color: var(--dark-base-black);
@@ -48,7 +47,6 @@
     --base-line-height: 23.4px;
     --base-font-color: var(--dark-pink-text);
     --accent-color: var(--dark-accent-color);
-    --title-font-size: 116px;
     --title-decor: var(--dark-accent-color);
     --title-color: var(--dark-purpure);
     --list-item-title-color: var(--dark-base-black);
