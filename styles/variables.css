@@ -9,6 +9,8 @@
   --dark-accent-color: rgb(255 0 112);
   --dark-pink: #ff8dcb;
   --dark-pink-text: #f1b2ce;
+  --decoration-color: rgb(255 0 112);
+  --border-color-opacity: #FF007066;
 
   --bg-image: url(../images/cover-image-dark.png);
   --page-padding: 10px;
