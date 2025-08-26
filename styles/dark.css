@@ -16,6 +16,7 @@
   --dark-pink-text: #f1b2ce;
   --page-bg-color: #000028;
   --decoration-color: rgb(255 0 112);
+  --border-color-opacity: #ff007066;
 
   --bg-image: url(../images/cover-image-dark.png);
   --button-color: var(--dark-accent-color);
@@ -31,11 +32,23 @@
     --dark-pink-text: #f1b2ce;
     --page-bg-color: #000028;
     --decoration-color: rgb(255 0 112);
+    --border-color-opacity: #ff007066;
 
     --bg-image: url(../images/cover-image-dark.png);
     --button-color: var(--dark-accent-color);
     --content__section-title-color: var(--dark-accent-color);
+  }
 
+  .header__decorated-rec {
+    display: flex;
+  }
+
+  .header__decorated-rec::before {
+    display: flex;
+  }
+
+  .header__decorated-rec::after {
+    display: flex;
   }
 }
 

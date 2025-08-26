@@ -17,7 +17,7 @@
   --dark-pink-text: #353430;
   --page-bg-color: #fff1f7;
   --decoration-color: #353430;
-  --border-color-opacity: #32312D66;
+  --border-color-opacity: #32312d66;
 
   --bg-image: url(../images/cover-image-light.png);
   --button-color: var(--dark-pink-text);
@@ -33,21 +33,34 @@
     --dark-pink-text: #353430;
     --page-bg-color: #fff1f7;
     --decoration-color: #353430;
+    --border-color-opacity: #32312d66;
 
     --bg-image: url(../images/cover-image-light.png);
     --button-color: var(--dark-pink-text);
     --content__section-title-color: var(--dark-pink-text);
   }
+
+  .header__decorated-rec {
+    display: none;
+  }
+
+  .header__decorated-rec::before {
+    display: none;
+  }
+
+  .header__decorated-rec::after {
+    display: none;
+  }
 }
 
-.header__decorated-rec {
+.theme-light .header__decorated-rec {
   display: none;
 }
 
-.header__decorated-rec::before {
+.theme-light .header__decorated-rec::before {
   display: none;
 }
 
-.header__decorated-rec::after {
+.theme-light .header__decorated-rec::after {
   display: none;
 }
